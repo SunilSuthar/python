@@ -6,6 +6,6 @@ s = socket.socket()
 
 s.connect(server)
 
-print(str(s.recv(1024)))
+print(str(s.recv(10),"UTF-8"))
 
-s.close
+s.close()
