@@ -8,5 +8,5 @@ s.bind(server)
 s.listen(5)
 while True:
 	c, addr = s.accept()
-	c.send(bytes("Hello","UTF-8"))
+	c.send(bytes("Hello Client","UTF-8"))
 
