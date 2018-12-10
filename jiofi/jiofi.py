@@ -62,7 +62,7 @@ class JioFi:
 
 
 try:
-	my_jiofi= JioFi("administrator","administrator")
+	my_jiofi= JioFi("sunil","9950169194")
 except Exception as e:
 	input("Can't connect to jiofi")
 	exit()
