@@ -1,5 +1,5 @@
 **Libraries Used**
-
+___
 1. Requests (Perform web requests and fetch data by get/post)
     >pip install requests
 2. Beautiful Soup (HTML Parsing)
@@ -9,4 +9,3 @@
 
 
 
----
